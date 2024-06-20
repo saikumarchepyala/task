@@ -1,0 +1,22 @@
+.container{
+    width:95%;
+    margin:0 auto;
+    /* background-color:#efefef; */
+    padding:20px;
+}
+.success-msg{
+   background-color: yellowgreen;
+   color: #fff;
+   padding: 10px;
+   border-radius: 8px;
+   margin: 50px 0;
+   text-align:center;
+}
+.error-msg{
+   background-color: rgb(205, 50, 63);
+   color: #fff;
+   padding: 10px;
+   border-radius: 8px;
+   margin: 50px 0;
+   text-align:center;
+}

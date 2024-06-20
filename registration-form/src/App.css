@@ -1,0 +1,149 @@
+/* .Header{
+  display: flex;
+} */
+ *{
+  box-sizing: border-box;
+ }
+ .Form{
+  margin: 100px 250px;
+  padding: 100px;
+  width: 100px 100px;
+  background-color: rgb(210, 212, 204);
+  border-radius: 50px;
+  flex-wrap: wrap;
+} 
+h1{
+  text-align: center;
+  background-color: rgb(210, 212, 204);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(5, 5, 5);
+}
+p{
+  text-align: center;
+  background-color: rgb(210, 212, 204);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(5, 5, 5);
+}
+.Formgroup{
+ display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.Formcontrol{
+  width: 50%;
+  height: 32px;
+  margin: 0px 25px;
+  border: solid rgb(163, 126, 126) 2px;
+  border-radius: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+
+ label{
+  justify-content: baseline;
+  font-weight: 500;
+} 
+
+.todolist{
+  display: flex;
+  flex-wrap: wrap;
+}
+.todoform, .todoitems{
+  flex: 45%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #333;
+}
+.item{
+  background-color: #efefef;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px 0px;
+}
+.error{
+  color: red;
+}
+.btn{
+  color: white;
+  padding: 10px 30px;
+  background-color: rgb(23, 159, 29);
+  display: flex;
+  margin-top: 20px;
+  border: 0px green solid;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  top: auto;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width:1100px){
+  .Form{
+    margin: 50px 50px;
+    padding: 50px;
+    width: 100px 100px;
+    background-color: rgb(210, 212, 204);
+    border-radius: 50px;
+    flex-wrap: wrap;
+  } 
+}
+@media only screen and (max-width:575px){
+  .Form{
+    margin: 10px 10px;
+    padding: 10px;
+    width: 100px 100px;
+    background-color: rgb(210, 212, 204);
+    border-radius: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  } 
+  .Formgroup{
+    display: flex;
+     width: 100%;
+     padding: 10px;
+     flex-direction: column;
+     text-align: center;
+   }
+   .Formcontrol{
+     width: 50%;
+     height: 32px;
+     margin: 0px auto;
+     border: solid rgb(163, 126, 126) 2px;
+     border-radius: 10px;
+     text-align: center;
+  
+   }
+}
+
+/* .App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+} */
