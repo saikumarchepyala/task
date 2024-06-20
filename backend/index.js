@@ -4,7 +4,7 @@ app.use(express.json());
 const cors =require('cors');
 app.use(cors(
     {
-        origin:["https://www.sailogin.com/"],
+        origin:["https://task-pz8b.vercel.app/"],
         methods:["POST", "GET"],
         credentials:true
     }
