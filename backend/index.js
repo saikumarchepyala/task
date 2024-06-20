@@ -2,7 +2,13 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 const cors =require('cors');
-app.use(cors());
+app.use(cors(
+    {
+        origin:["https://www.sailogin.com/"],
+        methods:["POST", "GET"],
+        credentials:true
+    }
+));
 require('./db/connection');
 const Users = require('./Models/User');
 
